@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,600,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<nav class="sidebar">
+	    <a href="#" class="close">x</a>
+	    <ul>
+	      <li><a href="#">Game</a></li>
+	      <li><a href="history.html">History</a></li>
+	      <li><a href="#">Variations</a></li>
+	      <li><a href="#">FAQs</a></li>
+	    </ul>
+	 </nav>
+
+	<div class="hamburger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</div>
+	<h1>Beat the Bot</h1>
+	<h2>A Rock, Paper, Scissors game</h2>
+
+
+	
+
+	<div class=row>
+		<div class=col-25>
+			<img  id=rock src="images/rock.png">
+		</div>
+		<div class=col-25>
+			<img id=paper src="images/paper.png">
+		</div>
+		<div class=col-25>
+			<img id=scissors src="images/scissors.png">
+		</div>
+	</div>
+    <div class="modal row">
+    	<div class="col-25">
+    		<img id="pick" src="" alt="">
+    	</div>
+    	<div class="col-25">
+    		<img id="bot" src="images/robot-head.jpg">
+		</div>
+ 	</div>
+ 	<div class="modal">
+ 		<button id=play>Play</button>
+ 	</div>
+    <button id=reset>Reset</button>
+ 	<!-- Outcome of the round and overall score -->
+ 	<div>
+ 		<span id=outcome></span>  
+    	<span id=score>Score is: 0 to 0</span>
+    </div>
+
+<!-- js file -->
+    <script src="js/jquery-1.7.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
